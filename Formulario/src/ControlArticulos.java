@@ -21,7 +21,7 @@ public class ControlArticulos {
             // Registrar el driver JDBC
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Conectar con la base de datos
+            // se conecta con la base de datos
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/base1?serverTimezone=America/Mexico_City", "root", "");
             System.out.println("Conexión exitosa a la base de datos MySQL.");
         } catch (ClassNotFoundException e) {
