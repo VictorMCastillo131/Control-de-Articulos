@@ -1,4 +1,4 @@
-import java.awt.*;
+import java.awt.*; //inportacion completa de AWT
 import java.sql.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
